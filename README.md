@@ -15,9 +15,10 @@ Traditional churn models focus entirely on identifying *who* will leave. However
 
 **The Problem:** Retaining customers is cheaper than acquiring new ones, but retention campaigns (e.g., offering a ₹500 discount) cost money. If a telecom company targets *every* predicted churner, they will lose money by offering discounts to low-value customers.
 
-**The Solution:** 1. Predict churn probability for each customer.
-2. Multiply probability by Customer Lifetime Value (CLV) to find the **Revenue Risk**.
-3. Simulate campaign costs against expected revenue saved to generate a **Profit Optimization Curve**.
+**The Solution:** 
+* 1. Predict churn probability for each customer.
+* 2. Multiply probability by Customer Lifetime Value (CLV) to find the **Revenue Risk**.
+* 3. Simulate campaign costs against expected revenue saved to generate a **Profit Optimization Curve**.
 
 ---
 
@@ -35,7 +36,6 @@ Instead of a generic accuracy metric, this model outputs actionable business int
 
 The results of the predictive model and financial simulator are visualized in Power BI for stakeholder consumption.
 
-*(Replace the paths below with your actual image links)*
 
 | Full Executive Dashboard | Profit Optimization Curve |
 |:---:|:---:|
@@ -89,4 +89,8 @@ git clone [https://github.com/YourUsername/churn-retention-optimization.git](htt
 ### View the Dashboard:
 * Open dashboard/churn_dashboard.pbix in Power BI Desktop and refresh the data source to view the results.
 
-### Author: Jeriel Philly 
+## Notes
+This project focuses on connecting machine learning outputs to business decisions rather than only improving model accuracy.
+
+## Author
+Jeriel Philly 
