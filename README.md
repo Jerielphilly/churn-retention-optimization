@@ -1,4 +1,4 @@
-# 📊 Telecom Churn & Revenue Optimization System
+# Telecom Churn & Revenue Optimization System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine_Learning-orange.svg)](https://scikit-learn.org/)
@@ -6,12 +6,12 @@
 
 > **Project Mission:** Moving beyond standard machine learning classification to drive actionable, financially optimized business decisions.
 
-## 🚀 Executive Summary
+##  Executive Summary
 Traditional churn models focus entirely on identifying *who* will leave. However, treating all churners equally is financially inefficient. This project combines **Machine Learning (Logistic Regression)** with **Financial Risk Modeling (CLV)** to predict churn, calculate revenue at risk, and simulate retention campaigns to determine exactly *which* customers a business should target to **maximize net profit**.
 
 ---
 
-## 💡 The Business Problem & Solution
+## The Business Problem & Solution
 
 **The Problem:** Retaining customers is cheaper than acquiring new ones, but retention campaigns (e.g., offering a ₹500 discount) cost money. If a telecom company targets *every* predicted churner, they will lose money by offering discounts to low-value customers.
 
@@ -21,30 +21,30 @@ Traditional churn models focus entirely on identifying *who* will leave. However
 
 ---
 
-## 🏆 Key Business Outcomes
+## Key Business Outcomes
 
 Instead of a generic accuracy metric, this model outputs actionable business intelligence:
-* 🎯 **Optimal Targeting:** The campaign should strictly target the top **~45 highest-risk, high-value customers**.
-* 💰 **Maximum Profit:** Executing this optimized strategy yields a maximum net profit of **₹5,541**.
-* 📉 **Risk Concentration:** The data revealed that the vast majority of churners are actually *low-value*. The true revenue risk is highly concentrated in a small "VIP" segment.
-* 🤖 **Model Performance:** Achieved an **ROC-AUC Score of 0.83**, providing a strong predictive foundation.
+* **Optimal Targeting:** The campaign should strictly target the top **~45 highest-risk, high-value customers**.
+* **Maximum Profit:** Executing this optimized strategy yields a maximum net profit of **₹5,541**.
+* **Risk Concentration:** The data revealed that the vast majority of churners are actually *low-value*. The true revenue risk is highly concentrated in a small "VIP" segment.
+* **Model Performance:** Achieved an **ROC-AUC Score of 0.83**, providing a strong predictive foundation.
 
 ---
 
-## 📸 Interactive Dashboard
+## Interactive Dashboard
 
 The results of the predictive model and financial simulator are visualized in Power BI for stakeholder consumption.
 
 *(Replace the paths below with your actual image links)*
 
-| 🌍 Full Executive Dashboard | 📈 Profit Optimization Curve |
+| Full Executive Dashboard | Profit Optimization Curve |
 |:---:|:---:|
 | ![Dashboard](images/dashboard.png) | ![Profit Curve](images/profit_curve.png) |
 | *High-level overview of revenue at risk and recommended targets.* | *Proves that targeting >50 customers results in financial loss.* |
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 ### Phase 1: Data Processing & Feature Engineering
 * Handled missing values (`TotalCharges`) and encoded categorical variables.
@@ -89,5 +89,5 @@ This will train the model, run the financial simulation, and generate the necess
 View the Dashboard:
 Open dashboard/churn_dashboard.pbix in Power BI Desktop and refresh the data source to view the results.
 
-💼 Author
-Jeriel Philly LinkedIn | GitHub
+Author
+Jeriel Philly 
