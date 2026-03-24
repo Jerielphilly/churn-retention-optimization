@@ -16,9 +16,9 @@ Traditional churn models focus entirely on identifying *who* will leave. However
 **The Problem:** Retaining customers is cheaper than acquiring new ones, but retention campaigns (e.g., offering a ₹500 discount) cost money. If a telecom company targets *every* predicted churner, they will lose money by offering discounts to low-value customers.
 
 **The Solution:** 
-* 1. Predict churn probability for each customer.
-* 2. Multiply probability by Customer Lifetime Value (CLV) to find the **Revenue Risk**.
-* 3. Simulate campaign costs against expected revenue saved to generate a **Profit Optimization Curve**.
+*  Predict churn probability for each customer.
+*  Multiply probability by Customer Lifetime Value (CLV) to find the **Revenue Risk**.
+*  Simulate campaign costs against expected revenue saved to generate a **Profit Optimization Curve**.
 
 ---
 
@@ -75,15 +75,22 @@ churn-retention-optimization/
 ├── images/                 # Screenshots for README
 └── README.md               # Project documentation
 ```
-How to Run This Project
-Clone the repository:
+---
+## How to Run This Project
+* Clone the repository:
+```
 git clone [https://github.com/Jerielphilly/churn-retention-optimization.git](https://github.com/Jerielphilly/churn-retention-optimization.git)
+```
 
 ### Install dependencies:
-``` pip install pandas numpy scikit-learn```
+``` 
+pip install pandas numpy scikit-learn
+```
 
 ### Run the pipeline:
-``` python src/train_model.py```
+```
+python src/train_model.py
+```
 * This will train the model, run the financial simulation, and generate the necessary datasets in the outputs/ folder.
 
 ### View the Dashboard:
