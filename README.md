@@ -74,20 +74,20 @@ churn-retention-optimization/
 ├── dashboard/              # Power BI (.pbix) files
 ├── images/                 # Screenshots for README
 └── README.md               # Project documentation
-
+```
 How to Run This Project
 Clone the repository:
 git clone [https://github.com/YourUsername/churn-retention-optimization.git](https://github.com/YourUsername/churn-retention-optimization.git)
 
-Install dependencies:
-pip install pandas numpy scikit-learn
+### Install dependencies:
+* pip install pandas numpy scikit-learn
 
-Run the pipeline:
-python src/train_model.py
-This will train the model, run the financial simulation, and generate the necessary datasets in the outputs/ folder.
+### Run the pipeline:
+* python src/train_model.py
+* This will train the model, run the financial simulation, and generate the necessary datasets in the outputs/ folder.
 
-View the Dashboard:
-Open dashboard/churn_dashboard.pbix in Power BI Desktop and refresh the data source to view the results.
+### View the Dashboard:
+* Open dashboard/churn_dashboard.pbix in Power BI Desktop and refresh the data source to view the results.
 
-Author
-Jeriel Philly 
+* Author
+* Jeriel Philly 
