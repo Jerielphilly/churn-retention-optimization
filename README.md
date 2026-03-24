@@ -77,13 +77,13 @@ churn-retention-optimization/
 ```
 How to Run This Project
 Clone the repository:
-git clone [https://github.com/YourUsername/churn-retention-optimization.git](https://github.com/YourUsername/churn-retention-optimization.git)
+git clone [https://github.com/Jerielphilly/churn-retention-optimization.git](https://github.com/Jerielphilly/churn-retention-optimization.git)
 
 ### Install dependencies:
-* pip install pandas numpy scikit-learn
+``` pip install pandas numpy scikit-learn```
 
 ### Run the pipeline:
-* python src/train_model.py
+``` python src/train_model.py```
 * This will train the model, run the financial simulation, and generate the necessary datasets in the outputs/ folder.
 
 ### View the Dashboard:
