@@ -7,7 +7,10 @@
 > **Project Mission:** Moving beyond standard machine learning classification to drive actionable, financially optimized business decisions.
 
 ##  Executive Summary
-Traditional churn models focus entirely on identifying *who* will leave. However, treating all churners equally is financially inefficient. This project combines **Machine Learning (Logistic Regression)** with **Financial Risk Modeling (CLV)** to predict churn, calculate revenue at risk, and simulate retention campaigns to determine exactly *which* customers a business should target to **maximize net profit**.
+Most churn prediction projects focus only on identifying customers who are likely to leave.
+In this project, I focus on a more practical question:
+Which customers should actually be targeted to maximize business profit?
+By combining churn probability with customer lifetime value (CLV), this project builds a system that not only predicts churn, but also helps prioritize retention efforts based on financial impact.
 
 ---
 
@@ -41,6 +44,19 @@ The results of the predictive model and financial simulator are visualized in Po
 |:---:|:---:|
 | ![Dashboard](images/dashboard.png) | ![Profit Curve](images/profit_curve.png) |
 | *High-level overview of revenue at risk and recommended targets.* | *Proves that targeting >50 customers results in financial loss.* |
+
+---
+
+## Why This Matters
+
+In real-world scenarios, targeting all churners is inefficient and expensive.
+
+This project shows that:
+- A large portion of churn comes from low-value customers
+- Only a small segment contributes to most of the revenue risk
+- Optimizing targeting can significantly improve profitability
+
+This shifts the focus from prediction accuracy to decision-making.
 
 ---
 
@@ -95,6 +111,12 @@ This will train the model, run the financial simulation, and generate the necess
 
 ### View the Dashboard:
 Open ```dashboard/churn_dashboard.pbix``` in Power BI Desktop and refresh the data source to view the results.
+
+---
+
+## Key Takeaway
+
+Predicting churn is not enough — the real value comes from deciding who is worth saving.
 
 ---
 
