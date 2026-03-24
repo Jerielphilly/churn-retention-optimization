@@ -77,9 +77,9 @@ churn-retention-optimization/
 ```
 ---
 ## How to Run This Project
-* Clone the repository:
+### Clone the repository:
 ```
-git clone [https://github.com/Jerielphilly/churn-retention-optimization.git](https://github.com/Jerielphilly/churn-retention-optimization.git)
+git clone https://github.com/Jerielphilly/churn-retention-optimization.git
 ```
 
 ### Install dependencies:
@@ -96,8 +96,7 @@ python src/train_model.py
 ### View the Dashboard:
 * Open dashboard/churn_dashboard.pbix in Power BI Desktop and refresh the data source to view the results.
 
-## Notes
-This project focuses on connecting machine learning outputs to business decisions rather than only improving model accuracy.
+---
 
 ## Author
 Jeriel Philly 
