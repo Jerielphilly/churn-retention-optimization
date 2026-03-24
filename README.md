@@ -91,10 +91,10 @@ pip install pandas numpy scikit-learn
 ```
 python src/train_model.py
 ```
-* This will train the model, run the financial simulation, and generate the necessary datasets in the outputs/ folder.
+This will train the model, run the financial simulation, and generate the necessary datasets in the outputs/ folder.
 
 ### View the Dashboard:
-* Open dashboard/churn_dashboard.pbix in Power BI Desktop and refresh the data source to view the results.
+Open ```dashboard/churn_dashboard.pbix`` in Power BI Desktop and refresh the data source to view the results.
 
 ---
 
