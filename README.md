@@ -89,5 +89,4 @@ git clone [https://github.com/YourUsername/churn-retention-optimization.git](htt
 ### View the Dashboard:
 * Open dashboard/churn_dashboard.pbix in Power BI Desktop and refresh the data source to view the results.
 
-* Author
-* Jeriel Philly 
+### Author: Jeriel Philly 
